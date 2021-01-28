@@ -16,7 +16,8 @@ phases:
       - echo Build phase started on `date`
       # - taskcat test run --no-delete
       # - taskcat test run -k
-      - taskcat test run
+     # - taskcat test run
+      - taskcat test run -l
   post_build:
     commands:
       - echo Build completed on `date`
